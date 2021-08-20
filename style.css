@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    font-size: 18px;
+    color: black;
+}
+
+h1 {
+    margin: 30px 0;
+    margin-left: 40px;
+    font-size: 40px;
+    color: lightcoral;
+}
+
+h2 {
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.laptops {
+    display: flex;
+    justify-content: center;
+}
+
+.laptop {
+    border: 2px solid black;
+    margin-left: 10px;
+    flex: 40%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.paragraph {
+    margin-left: 10px;
+
+}
+
+.laptop-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.total-price {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.fa-plus,
+.fa-minus {
+    padding: 5px;
+}
+
+.input-number {
+    width: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+}
